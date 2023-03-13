@@ -16,7 +16,7 @@ We download and preprocess IWSLT'14 dataset for 8 language pairs here (XX->En):
 bash scripts/preprocess_iwslt14.sh
 ```
 ## Train
-To train the model, run:
+To train the models translating between German and English (De->En) using the small transformer base architecture, run:
 ```
 bash scripts/train.sh true # with Intra-distillation
 # or
